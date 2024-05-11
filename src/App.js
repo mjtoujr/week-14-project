@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import MovieList from "./components/movie_list/movie_list";
+import movies from "./components/sample_movies";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="container">
+      <header className="header">
+        <h1>The Movie List</h1>
       </header>
+      <main>
+        <MovieList movies={movies} />
+      </main>
     </div>
   );
 }

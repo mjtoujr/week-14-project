@@ -1,0 +1,31 @@
+.review-form {
+    margin-bottom: 20px;
+}
+
+.review-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.review-form h4 {
+    margin-bottom: 5px;
+}
+
+.review-form input,
+.review-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #5a52a3;
+    border-radius: 5px;
+}
+
+.review-form button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.review-form button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,10 @@
+.review {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: violet;
+}
+
+.review p {
+    margin: 0;
+}
